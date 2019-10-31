@@ -15,6 +15,7 @@ def get_repo_data(repositories):
         r = requests.get(repositories[repo] + releases)
         r_data = r.json()
         print("Recent release: ", r_data[0]['tag_name'])
+        print("Release URL: ", r_data[0]['html_url'])
         print("Published: ", r_data[0]['published_at'], '\n')
 
 if __name__ == '__main__':
