@@ -23,13 +23,14 @@ if __name__ == '__main__':
     repositories = {
         'Stellar Core': 'https://api.github.com/repos/stellar/stellar-core',
         'Stellar Go Monorepo': 'https://api.github.com/repos/stellar/go',
-        'JavaScript SDK': 'https://api.github.com/repos/stellar/js-stellar-base',
+        'JavaScript SDK': 'https://api.github.com/repos/stellar/js-stellar-sdk',
         'Python SDK': 'https://api.github.com/repos/StellarCN/py-stellar-base',
         'C# .NET SDK': 'https://api.github.com/repos/elucidsoft/dotnet-stellar-sdk',
         'Java SDK': 'https://api.github.com/repos/stellar/java-stellar-sdk',
         'Scala SDK': 'https://api.github.com/repos/Synesso/scala-stellar-sdk',
         'IOS SDK': 'https://api.github.com/repos/Soneso/stellar-ios-mac-sdk',
-        'Ruby SDK': 'https://api.github.com/repos/stellar/ruby-stellar-base'
+        'Ruby SDK': 'https://api.github.com/repos/astroband/ruby-stellar-sdk',
+        'Flutter SDK': 'https://api.github.com/repos/Soneso/stellar_flutter_sdk'
     }
 
     get_repo_data(repositories)
